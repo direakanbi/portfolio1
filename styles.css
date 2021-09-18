@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+html {
+  list-style-type: none;
+}
+
 ul {
   list-style-type: none;
 }
@@ -130,16 +134,21 @@ i.fab.fa-github {
 }
 
 .work {
+  display: flex;
   margin: 12px;
   padding: 24px;
   background-color: #ffff;
   border-radius: 25px;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .sub-title {
   display: flex;
+  margin-top: 20px;
+  justify-content: space-evenly;
 }
 
 .languages {
@@ -159,14 +168,30 @@ i.fab.fa-github {
 }
 
 .see {
+  display: flex;
   border: 1px solid #6070ff;
   border-radius: 10px;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 40px;
   letter-spacing: 0.03em;
   font-size: 17px;
   color: #396df2;
   background-color: #ffff;
+}
+
+button.see:hover:enabled {
+  background: #6070ff;
+  color: white;
+}
+
+button.see:active:enabled {
+  background: #2230d2;
+  color: white;
+}
+
+button.see:disabled:enabled {
+  background-color: white;
+  color: black;
 }
 
 p.about1 {
@@ -174,13 +199,10 @@ p.about1 {
 }
 
 i.fas.fa-circle {
-  color: #7a869a;
-  position: static;
-  width: 8px;
-  height: 8px;
-  left: 80px;
-  top: 12px;
-  font-size: 8px;
+  margin-top: 8px;
+  font-size: 9px;
+  margin-right: 12px;
+  color: #c1c7d0;
 }
 
 h3 {
@@ -291,4 +313,27 @@ h5.text2 {
 
 .seperator {
   border: 1px solid #dfe1e6;
+}
+
+.main1 {
+  display: grid;
+}
+
+.article1 {
+  margin-top: 20px;
+}
+
+.back-end {
+  display: flex;
+  justify-content: space-between;
+  color: #7a869a;
+}
+
+.date2 {
+  color: #7a869a;
+}
+
+article {
+  color: #344563;
+  margin-top: 20px;
 }

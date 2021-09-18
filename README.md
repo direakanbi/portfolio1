@@ -1,17 +1,37 @@
-# My portfolio
-This project was created for the creation of my portfolio.
+# Dire's Portfolio
+  This project was bult for the creation of my portfolio.
 
-# SITE CONTENTS
-1. A home section.
-2. A project showcase section.
-3. An About Me section.
 
-# LANGUAGES USED
+
+# Additional description about the project and its features.
+
+## Built With
 1. HTML
 2. CSS
-3. Linters(Lighthouse, Webhint, Stylelint
-# PREREQUISITES
-  1.Prior knowledge of HTML and CSS.
+3. Linters (Webhint, Stylehint, Lighthouse)
 
-  # Live Demo Link.
-  http://127.0.0.1:5500/portfolio1/index.html#
+# Getting Started
+To get a local copy up and running follow these simple example steps.
+
+# Prerequisites
+Setup: Clone the direakanbi/portfolio1.git repo into the selected destination of your choice on your local machine.
+Install: Install all the necessary linters such as Webhint, Stylelint, Lighthouse in your root directory.
+Usage: Run the index.html file on your local server.
+Run tests: Run tests for syntax errors using the pre-installed linters.
+
+GitHub: @direakanbi
+Twitter: @direakanbi
+LinkedIn: Akanbi Dire
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the issues page.
+
+Show your support
+Give a ⭐️ if you like this project!
+
+Acknowledgments
+📝 License
+This project is MIT licensed.
+
