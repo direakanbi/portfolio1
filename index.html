@@ -9,13 +9,13 @@
     <script src="https://kit.fontawesome.com/b7a7cffe76.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600&display=swap" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600&display=swap" rel="stylesheet" crossorigin="anonymous" >
 </head>
 <body>
   <main>
     <div class="header">
       <a href="">My Logo</a>
-      <nav><a href=""><i class="fas fa-bars"></i></a></nav>
+      <nav><a href="" aria-label="bars"><i class="fas fa-bars"></i></a></nav>
     </div>
 
     <section class="container">
@@ -42,8 +42,9 @@
       </div>
     </section>
       
-    <ul class="cards-container">
-      <li class="work one">
+    <section>
+      <ul class="cards-container">
+        <li class="work one">
         <img src="./snapshot-porfolio.png" alt="project-image" class="project-image1">
         
         <h3>TONIC</h3>
@@ -67,7 +68,7 @@
         </ul>
 
         <button class="see">See Project</button>
-      </li>
+      </ul>
 
       <li class="work two">
          <img src="./snapshot-portfolio2.png" alt="project-image2">
@@ -215,6 +216,7 @@
     
     
     </ul>
+  </section>
   </main>
 </body>
 </html>
