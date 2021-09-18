@@ -1,6 +1,11 @@
 # My portfolio
 This project was created for the creation of my portfolio.
 
+# SITE CONTENTS
+1. A home section.
+2. A project showcase section.
+3. An About Me section.
+
 # LANGUAGES USED
 1. HTML
 2. CSS
